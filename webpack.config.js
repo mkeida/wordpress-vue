@@ -56,7 +56,7 @@ module.exports = {
                         options: {
                             name: '[name].[ext]',
                             outputPath: '../dist',
-                            publicPath: (process.env.NODE_ENV === 'production') ? '/dist' : `${window.templateUrl}/dist`
+                            publicPath: (process.env.NODE_ENV === 'production') ? '/dist' : '/wordpress/wp-content/themes/your-theme-name/dist/'
                         }
                     }
                 ]
