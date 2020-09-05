@@ -1,0 +1,4 @@
+// Unhides app container (class added after JS is loaded to prevent FOUC)
+#app {
+    display: block;
+}
